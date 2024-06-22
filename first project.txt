@@ -1,0 +1,20 @@
+print("Welcome to treasure island")
+print("Your mission is to find the treasure")
+a = input('You are at a crossroad. Where do you want to go? Type "left" or "right"')
+
+if a == "left":
+    print("You are at a lake")
+    b = input('Type "wait" to go to the other side of the lake or "swim" to swim inside the lake')
+    
+    if b == "wait":
+        print("You arrive at an island. There are 3 doors")
+        d = input('One is red, blue, yellow. What do you choose?')
+        
+        if d == "yellow":
+            print("You win the game")
+        else:
+            print("You lost. Game Over!!!")
+    else:
+        print("Game Over")
+else:
+    print("Game Over")
